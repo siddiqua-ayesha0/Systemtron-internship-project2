@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/netflixlogo.jpg">
+    <title>My Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+        <header class="navbar">
+            <div class="logo">NETFLIX</div>
+            <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search" class="search-bar">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bell"></i>
+            <button>Sign-in</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Watch Unlimited Movies & TV Shows</h1>
+            <p>Stream anywhere. Cancel anytime.</p>
+            <button class="hero-button">Watch Now</button>
+        </div>
+    </section>
+
+    <main class="content">
+        <div class="section">
+            <h2>Trending Now</h2>
+            <div class="movie-row trending-row">
+                <div class="movie-card" data-title="taare zameen par.jpg" data-thumbnail="images/movie1.jpg">
+                    <img src="./images/taare zameen par.jpg" alt="Movie 1">
+                </div>
+                <div class="movie-card" data-title="Movie2.jpg" data-thumbnail="images/movie2.jpg">
+                    <img src="./images/Movie2.jpg" alt="Movie 2">
+                </div>
+                <div class="movie-card" data-title="snow-White-movie1.jpg" data-thumbnail="images/movie3.jpg">
+                    <img src="./images/Snow-White-movie1.jpg" alt="Movie 3">
+                </div>
+                <div class="movie-card" data-title="movie4.jpg" data-thumbnail="images/movie4.jpg">
+                    <img src="./images/movie4.jpg" alt="Movie 4">
+                </div>
+                <div class="movie-card" data-title="RRR_poster.jpg" data-thumbnail="images/Movie5.jpg">
+                    <img src="./images/RRR_poster.jpg" alt="Movie5">
+                </div>
+                <div class="movie-card" data-title="Movie 6.jpg" data-thumbnail="images/movie6.jpg">
+                    <img src="./images/Movie 6.jpg " alt="movie6">
+                </div>
+                </div>
+        </div>
+
+        <div class="section">
+            <h2>Popular on MyNeflix</h2>
+            <div class="movie-row popular-row">
+                <div class="movie-card" data-title="Show A" data-thumbnail="images/showa.jpg">
+                    <img src="./images/show A.jpg" alt="Show A">
+                </div>
+                <div class="movie-card" data-title="Show B" data-thumbnail="images/showb.jpg">
+                    <img src="./images/show B.jpg" alt="Show B">
+                </div>
+                <div class="movie-card" data-title="Show C" data-thumbnail="images/showc.jpg">
+                    <img src="./images/show C.jpg" alt="Show C">
+                </div>
+                <div class="movie-card" data-title="Show D" data-thumbnail="images/showd.jpg">
+                    <img src="./images/show D.jpg"  alt="Show D">
+                </div>
+                <div class="movie-card" data-title="Show E" data-thumbnail="images/showe.jpg">
+                    <img src="./images/Show E.jpg"  alt="Show E">
+                </div>
+                <div class="movie-card" data-title="Show F" data-thumbnail="images/showf.jpg">
+                    <img src="./images/show F.jpg "  alt="Show F">
+                </div>
+
+        </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">FAQ's</a>
+            <a href="#">Help Center</a>
+            <a href="#">Accounts</a>
+            <a href="#">Media Center</a>
+            <a href="#">Ways to watch</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+            </div>
+    </footer>
+    <script src="netflix.js"></script>       
+
+</body>
+</html>
